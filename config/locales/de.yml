@@ -1,0 +1,13 @@
+de:
+  account_owner: "Kontoinhaber"
+  account_number: "Kontonummer"
+  bank_accounts: "Bankkonten"
+  bank_name: "Name der Bank"
+  bank_branch: "Bankleitzahl"
+  back_to_bank_accounts_list: "Zurück zur Liste der Konten"
+  editing_bank_account: "Konto bearbeiten"
+  payment_confirmation: "Zahlungsbestätigung"
+  payment_information: "Zahlungsinformation"
+  please_make_your_payment_by_using_bank_transfer_to_one_of_the_following_banks: "Bitte überweisen sie den Betrag auf eines der folgenden Bankkonten"
+  please_continue_to_the_payment_confirmation_page_once_you_ve_made_your_payment: "Bitte bestätigen Sie die Zahlung auf der folgenden Seite, sobald Sie sie vorgenommen haben."
+  thank_you_for_confirming_your_payment_your_order_is_currently_being_processed: "Vielen Dank für Ihre Bestätigung der Banküberweisung. Ihre Bestellung wird nun bearbeitet."
