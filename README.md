@@ -91,10 +91,7 @@ Resources
 
 - Spree Documentation - [http://guides.spreecommerce.com/][3]
 - Spree New Guides - [https://github.com/spree/spree-guides/tree/new_guides][4]
-- Twilio Documentation - [http://www.twilio.com/docs][5]
 
-[1]: http://www.twilio.com/
 [2]: http://webchat.freenode.net/?channels=spree
 [3]: http://guides.spreecommerce.com/
 [4]: https://github.com/spree/spree-guides/tree/new_guides
-[5]: http://www.twilio.com/docs

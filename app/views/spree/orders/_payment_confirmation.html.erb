@@ -7,7 +7,7 @@
     <legend align="center"><%= t(:payment_confirmation) %></legend>
     <div id="@order" data-hook>
       <div class="row steps-data">
-      
+
         <%= form_tag(confirm_payment_order_path, :method => "post", :id => "payment_confirmation_form") do %>
         <div class="columns alpha four">
           <p class="field" id=<%= "#{@order.id}name" %>>
@@ -19,7 +19,7 @@
         <div class="columns alpha four">
           <p class="field" id=<%= "#{@order.id}amount" %>>
             <%= label_tag :amount, t(:amount) %><span class="required">*</span><br />
-            <%= text_field_tag :amount, "", :class => 'required digits' %>
+            <%= text_field_tag :amount, "", :class => 'required number' %>
           </p>
         </div>
 

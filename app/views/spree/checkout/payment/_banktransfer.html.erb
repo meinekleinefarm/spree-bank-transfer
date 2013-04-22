@@ -14,19 +14,19 @@
   </colgroup>
   <thead>
     <tr data-hook="account_header">
-      <th><%= t(:bank_name) %></th>
-      <th><%= t(:bank_branch) %></th>
       <th><%= t(:account_owner) %></th>
+      <th><%= t(:bank_name) %></th>
       <th><%= t(:account_number) %></th>
+      <th><%= t(:bank_branch) %></th>
     </tr>
   </thead>
   <tbody>
     <% @bank_accounts.each do |bank_account| %>
     <tr id="<%= bank_account %>" data-hook="account_row" class="<%= cycle('odd', 'even') %>">
-      <td><%= bank_account.bank_name %></td>
-      <td><%= bank_account.bank_branch %></td>
       <td><%= bank_account.account_owner %></td>
+      <td><%= bank_account.bank_name %></td>
       <td><%= bank_account.account_number %></td>
+      <td><%= bank_account.bank_branch %></td>
     </tr>
     <% end %>
   </tbody>
