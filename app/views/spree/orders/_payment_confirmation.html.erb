@@ -8,7 +8,7 @@
     <div id="@order" data-hook>
       <div class="row steps-data">
 
-        <%= form_tag(confirm_payment_order_path(:protocol => 'http'), :method => "post", :id => "payment_confirmation_form") do %>
+        <%= form_tag(confirm_payment_order_url(:protocol => 'http'), :method => "post", :id => "payment_confirmation_form") do %>
         <div class="columns alpha four">
           <p class="field" id=<%= "#{@order.id}name" %>>
             <%= label_tag :name, t(:name) %><span class="required">*</span><br />
